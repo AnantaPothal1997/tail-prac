@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.filter-button{
+    @apply p-2 mr-1 border rounded-full text-xs hover:bg-gray-300 hover:cursor-pointer hover:border-gray-400
+}
+
+.active-filter{
+    @apply bg-gray-300 border-gray-400
+}
+
+.filter-button-sm{
+    @apply p-1 mr-1 border rounded-full text-xs  bg-gray-300 border-gray-400
+}
